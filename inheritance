@@ -1,0 +1,14 @@
+class employee1():
+    def __init__(self,name,age,salary):
+        self.name = name
+        self.age = age
+        self.salary = salary
+
+class child(employee1):
+    def __init__(self,name,age,salary,id):
+        self.name=name
+        self.age=age
+        self.salary=salary
+        self.id=id
+emp1=employee1('pavan',55,5000)
+print(emp1.age)
